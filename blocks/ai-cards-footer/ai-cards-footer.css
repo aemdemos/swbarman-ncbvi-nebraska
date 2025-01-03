@@ -1,0 +1,27 @@
+.ai-cards-footer > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-gap: 24px;
+}
+
+.ai-cards-footer > ul > li {
+  border: 1px solid #dadada;
+  background-color: var(--background-color);
+}
+
+.ai-cards-footer .ai-cards-footer-card-body {
+  margin: 16px;
+}
+
+.ai-cards-footer .ai-cards-footer-card-image {
+  line-height: 0;
+}
+
+.ai-cards-footer > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
